@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     body{
         padding: 0;
         margin: 0;
-        font-family: 'Noto Sans KR', sans-serif;
+        font-family: 'LeferiPoint-WhiteObliqueA',sans-serif;
         box-sizing: border-box;
     };
     button{
@@ -21,8 +21,12 @@ const GlobalStyle = createGlobalStyle`
         padding-left: 10px;
     }
     p{
-        font-family: 'LeferiPoint-WhiteObliqueA';
-        white-space: normal;
+        white-space: pre-wrap;
+        font-weight: 400;
+    }
+    h3{
+        font-family: 'LeferiBaseType-RegularA';
+        font-weight: bold;
     }
 `;
 
