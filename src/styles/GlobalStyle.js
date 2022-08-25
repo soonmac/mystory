@@ -8,6 +8,9 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         font-family: 'LeferiPoint-WhiteObliqueA',sans-serif;
         box-sizing: border-box;
+        @media screen and (max-width: 500px) {
+        font-size: 50%;
+      }
     };
     button{
         display: flex;
@@ -24,9 +27,16 @@ const GlobalStyle = createGlobalStyle`
         white-space: pre-wrap;
         font-weight: 400;
     }
+    ul {
+        margin-bottom: 10px;
+    }
     h3{
+        font-size:20px;
         font-family: 'LeferiBaseType-RegularA';
         font-weight: bold;
+    }
+    figcaption {
+        text-align: center
     }
 `;
 
